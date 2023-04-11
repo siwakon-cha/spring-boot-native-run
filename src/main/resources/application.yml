@@ -6,7 +6,7 @@ spring:
 
   # Naming strategy
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       default_schema: public
       naming:
@@ -19,7 +19,7 @@ spring:
     properties:
       hibernate:
         globally_quoted_identifiers: true
-        dialect: org.hibernate.dialect.PostgreSQL94Dialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
         connection:
           characterEncoding: utf-8
           CharSet: utf-8
